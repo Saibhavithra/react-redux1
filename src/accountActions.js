@@ -3,7 +3,7 @@ export function deposit(amount){
     return {
             type: 'DEPOSIT',
             payload: amount
-        }
+        }  
 } 
 
 export function withdraw(amount){

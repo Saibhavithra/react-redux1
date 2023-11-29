@@ -11,4 +11,4 @@ export function updateName(fullName){
         payload: fullName
 
     }
-}
+}  

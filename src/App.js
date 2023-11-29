@@ -9,7 +9,7 @@ function App() {
   const[depositAmount, setDepositAmount] = useState()
   const[WithdrawAmount, setWithdrawAmount] = useState()
   const[LoanAmount, setLoanAmount] =useState()
-  const[LoanPurpose, setLoanPurpose]=useState()
+  const[LoanPurpose, setLoanPurpose]=useState()  
 
   const stateValues = useSelector(state=>state)
   console.log('Entire Store: ', stateValues)
