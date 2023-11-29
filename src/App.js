@@ -21,7 +21,7 @@ function App() {
   if(amount){
     return (
       <div >
-          <div class="header">
+          <div class="header">  
           <h2 > Your Account Operation</h2></div>
           <div className='container'>
               <label for='deposit'>Deposit</label>

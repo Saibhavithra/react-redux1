@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:whitesmoke; 
+  background-color:skyblue; 
 }
 
 code {
@@ -15,7 +15,8 @@ code {
 .container{
   /* background-color: gainsboro; */
   /* background-color:rgb(46, 43, 245); */
-  background-color:skyblue; 
+ 
+  background: dodgerblue;
    margin-left: 300px;
   text-align: center;
   height: 400px;
@@ -23,22 +24,23 @@ code {
  
 }
 .header{
-  padding: 60px;
+
+  padding: 6px;
   text-align: center;
   /* background: #1abc9c; */
   /* background: rgb(48, 48, 202); */
-  background: dodgerblue;
+  background-color:blue; 
   color: white;
   font-size: 30px;
   margin-left: 300px;
-  width:880px;
+  width:989px;
   
 }
 button {
   margin:10px;
-  background-color: dodgerblue;
+  background-color: blue;
   color:white
-}
+}  
 
 label {
   color:white;

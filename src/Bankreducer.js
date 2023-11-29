@@ -8,7 +8,7 @@ const initialState ={
 
 
 function Bankreducer(state=initialState, action) {
-    alert('hello');
+   
     switch (action.type){
     case "DEPOSIT":
         return {...state, balance: state.balance+action.payload}
